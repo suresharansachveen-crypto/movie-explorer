@@ -103,4 +103,10 @@ footer {
     main {
         padding: 25px 15px;
     }
+
+    h1 {
+  text-align: center;
+  margin-top: 64px;
+  font-size: 48px;
+}
 }
