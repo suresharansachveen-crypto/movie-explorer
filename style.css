@@ -132,4 +132,44 @@ footer {
   margin-left: 112px;
   margin-right: 112px;
 }
+/* Mission 11 - Menu de navigation */
+
+.main-header {
+  width: 100%;
+  background: #111827;
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 112px;
+  margin-right: 112px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.burger-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.burger-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.burger-menu a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  margin: 64px 112px;
+}
 }
