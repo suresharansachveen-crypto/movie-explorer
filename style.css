@@ -115,4 +115,67 @@ footer {
     font-size: 20px;
     margin-top: 10px;
 }
+/* Mission 7 - Personnaliser les cartes de films */
+.movie-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Mission 8 - Modifier le badge de notation */
+.movie-rating {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background: #fef3c7;
+  color: #92400e;
+}
+
+/* Mission 9 et 10 - Grille des films */
+.movies-grid {
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 112px;
+  margin-right: 112px;
+}
+/* Mission 11 - Menu de navigation */
+
+.main-header {
+  width: 100%;
+  background: #111827;
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 112px;
+  margin-right: 112px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.burger-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.burger-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.burger-menu a:hover {
+  text-decoration: underline;
+}
+
+#about {
+  margin: 64px 112px;
+}
 }
